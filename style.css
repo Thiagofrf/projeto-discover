@@ -50,6 +50,9 @@ body * {
 
 #profile img {
   width: 112px;
+  height: 111px;
+  border-radius: 50%;
+  border: 2px solid var(--stroke-color);
 }
 
 #profile p {
@@ -82,7 +85,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--highlight-color);
+  outline: 8px solid var(--hig);
 }
 
 .light #switch button {
